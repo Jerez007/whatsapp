@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 //DB config. This is a test. Leaving password visible for now. 
 const connection_url =
-  "mongodb+srv://admin:p1dT23E4o5xG437S3d8Qe989o8HgR32Zx1OpI@cluster0.ea2ae.mongodb.net/whatsappdb?retryWrites=true&w=majority";
+  "";
 
 mongoose.connect(connection_url, {
   useCreateIndex: true,
